@@ -1,0 +1,7 @@
+C:\Users\abhinav arya\OneDrive\Desktop\C#\programs\bin\Debug\programs.exe.config
+C:\Users\abhinav arya\OneDrive\Desktop\C#\programs\bin\Debug\programs.exe
+C:\Users\abhinav arya\OneDrive\Desktop\C#\programs\bin\Debug\programs.pdb
+C:\Users\abhinav arya\OneDrive\Desktop\C#\programs\obj\Debug\programs.csproj.AssemblyReference.cache
+C:\Users\abhinav arya\OneDrive\Desktop\C#\programs\obj\Debug\programs.csproj.CoreCompileInputs.cache
+C:\Users\abhinav arya\OneDrive\Desktop\C#\programs\obj\Debug\programs.exe
+C:\Users\abhinav arya\OneDrive\Desktop\C#\programs\obj\Debug\programs.pdb

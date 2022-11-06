@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF2A0919-8B59-4577-BD51-E55D759A8D36}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>programs</RootNamespace>
+    <AssemblyName>programs</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aa10.cs" />
+    <Compile Include="aa11.cs" />
+    <Compile Include="aa12.cs" />
+    <Compile Include="aa13.cs" />
+    <Compile Include="aa14.cs" />
+    <Compile Include="aa15.cs" />
+    <Compile Include="aa16.cs" />
+    <Compile Include="aa17.cs" />
+    <Compile Include="aa18.cs" />
+    <Compile Include="aa19.cs" />
+    <Compile Include="aa2.cs" />
+    <Compile Include="aa20.cs" />
+    <Compile Include="aa21.cs" />
+    <Compile Include="aa22.cs" />
+    <Compile Include="aa23.cs" />
+    <Compile Include="aa24.cs" />
+    <Compile Include="aa25.cs" />
+    <Compile Include="aa26.cs" />
+    <Compile Include="aa27.cs" />
+    <Compile Include="aa28.cs" />
+    <Compile Include="aa29.cs" />
+    <Compile Include="aa3.cs" />
+    <Compile Include="aa30.cs" />
+    <Compile Include="aa31.cs" />
+    <Compile Include="aa32.cs" />
+    <Compile Include="aa33.cs" />
+    <Compile Include="aa34.cs" />
+    <Compile Include="aa35.cs" />
+    <Compile Include="aa36.cs" />
+    <Compile Include="aa37.cs" />
+    <Compile Include="aa38.cs" />
+    <Compile Include="aa39.cs" />
+    <Compile Include="aa4.cs" />
+    <Compile Include="aa40.cs" />
+    <Compile Include="aa41.cs" />
+    <Compile Include="aa42.cs" />
+    <Compile Include="aa43.cs" />
+    <Compile Include="aa44.cs" />
+    <Compile Include="aa45.cs" />
+    <Compile Include="aa46.cs" />
+    <Compile Include="aa47.cs" />
+    <Compile Include="aa48.cs" />
+    <Compile Include="aa49.cs" />
+    <Compile Include="aa5.cs" />
+    <Compile Include="aa50.cs" />
+    <Compile Include="aa6.cs" />
+    <Compile Include="aa7.cs" />
+    <Compile Include="aa8.cs" />
+    <Compile Include="aa9.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
